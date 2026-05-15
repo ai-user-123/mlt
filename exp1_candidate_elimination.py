@@ -41,7 +41,7 @@ def candidate_elimination(examples):
     return S, G
 
 if __name__ == "__main__":
-    header, examples = load_data("training_data_set_for_ex_1.csv")
+    header, examples = load_data("training_data.csv")
     S, G = candidate_elimination(examples)
     print("--- Final Result ---")
     print("Final Specific Boundary (S):", S)
